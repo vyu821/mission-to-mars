@@ -16,11 +16,11 @@ mongo = PyMongo(app)
 def index():
     # uses pymongo to find 'mars' collection in our database
     mars = mongo.db.mars.find_one()
-    try:
-        # return html template using index.html file, use 'mars' collection in mongodb
-        return render_template('index.html', mars = mars)
-    except Exception as e:
-        return str(e)
+    #try:
+    # return html template using index.html file, use 'mars' collection in mongodb
+    return render_template('index.html', mars = mars)
+    #except Exception as e:
+    #    return str(e)
 
 # scrape route
 @app.route('/scrape')
