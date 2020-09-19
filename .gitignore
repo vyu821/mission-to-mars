@@ -1,5 +1,7 @@
 # files to ignore
 Practice.ipynb
+Mission_to_Mars_Module.ipynb
+module_index.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
