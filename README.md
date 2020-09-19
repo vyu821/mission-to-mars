@@ -8,4 +8,4 @@ You are to create a web app that displays information you have scraped about Mar
 - Software: Jupyter Notebook 6.0.3, Python 3.7.7, Visual Studio Code 1.47.2, MongoDB 4.4.1
 
 ## Challenge Summary
-We have sucessfully automated the scraping process of the Mars data. (scraping.py)
+We have sucessfully automated the scraping process of the Mars data. (/scraping.py) We then stored the data onto a Mongo database and used Flask to display the data. 
